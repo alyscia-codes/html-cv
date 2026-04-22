@@ -17,7 +17,7 @@
 | 9 | Type the og:description tag | VS Code — `index.html` | See box [OG-DESC] below | og:description tag appears | Quotes look broken → Confirm no smart/curly quotes — use straight quotes only |
 | 10 | Press Enter to move to the next line | VS Code — `index.html` | `Enter` | Cursor on new line | — |
 | 11 | Type the og:type tag | VS Code — `index.html` | `<meta property="og:type" content="website">` | og:type tag appears | — |
-| 12 | Press Enter to move to the next line | VS Code — `index.html` | `Enter` | Cursor on new line | — |
+| 12 | Press Enter to move to the next line |   `index.html` | `Enter` | Cursor on new line | — |
 | 13 | Type the og:url tag with a placeholder URL for now | VS Code — `index.html` | See box [OG-URL] below | og:url tag appears with placeholder | This will be updated on Day 22 when GitHub Pages is live |
 | 14 | Press Enter to move to the next line | VS Code — `index.html` | `Enter` | Cursor on new line | — |
 | 15 | Type the og:image tag with a placeholder | VS Code — `index.html` | See box [OG-IMAGE] below | og:image tag appears | This will be updated when you have a real image URL |
