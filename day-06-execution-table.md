@@ -1,10 +1,11 @@
 # Week 1: Foundation — Setup, Structure & Core HTML
 
 ## Day 6: Semantic Layout Skeleton
+
 > Add all semantic landmark elements (`<header>`, `<main>`, `<section>`, `<footer>`) with correct IDs and no content yet.
 
 | Step # | What To Do | Where | Input | Expected Result | Troubleshooting |
-|--------|------------|-------|-------|-----------------|-----------------|
+| -------- | ------------ | ------- | ------- | ----------------- | ----------------- |
 | 1 | Open VS Code with your project | Terminal | `code ~/Desktop/html-cv` | VS Code opens with `html-cv` in sidebar | `code not found` → Open VS Code manually |
 | 2 | Click `index.html` in the Explorer sidebar | VS Code — Explorer Panel | — | `index.html` opens in editor | File missing → Run `ls` in Terminal to confirm it exists |
 | 3 | Click on the blank line inside `<body>` to place your cursor there | VS Code — `index.html` | — | Cursor blinks on the empty line between `<body>` and `</body>` | No blank line → Click at end of `<body>` tag and press Enter |
@@ -45,7 +46,9 @@
 ---
 
 ### 📋 Box: DAY6-VERIFY
+
 Your `<body>` block should look exactly like this:
+
 ```html
 <body>
 
@@ -79,4 +82,5 @@ Your `<body>` block should look exactly like this:
 
 </body>
 ```
+
 All tags empty — no content yet. Content fills in starting Day 8.
