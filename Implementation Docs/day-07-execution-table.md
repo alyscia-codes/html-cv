@@ -29,7 +29,7 @@
 | 21 | Confirm no errors or warnings appear | Browser — Nu Html Checker Results | — | "The document validates according to the specified schema(s)" message | Warnings appear → See box [COMMON-ERRORS] and fix each one |
 | 22 | Open index.html in browser for a final visual check | Terminal | `open index.html` (Mac) or `start index.html` (Windows) | Blank white page loads with favicon and correct tab title | Page errors → Check for any remaining unclosed tags |
 | 23 | Confirm favicon still appears in tab | Browser — Tab Bar | — | Your initials icon visible in the tab | Missing → Hard refresh with `Cmd+Shift+R` / `Ctrl+Shift+R` |
-| 24 | Confirm tab title shows your name | Browser — Tab Bar | — | Tab reads `Your Name — Junior Frontend Developer` | Wrong title → Check `<title>` tag in VS Code |
+  | 24 | Confirm tab title shows your name | Browser — Tab Bar | — | Tab reads `Your Name — Junior Frontend Developer` | Wrong title → Check `<title>` tag in VS Code |
 | 25 | Open DevTools Elements tab and do a final structure check | Browser | `F12` (Windows) or `Cmd+Option+I` (Mac) | Full HTML tree visible | — |
 | 26 | Confirm `<head>` contains all 13 expected lines | Browser — DevTools Elements | — | charset, viewport, title, description, keywords, author, 5 OG tags, favicon link all present | Missing tag → Add it in VS Code, save, re-validate |
 | 27 | Confirm `<body>` contains header, main, 4 sections, footer — all with correct ids | Browser — DevTools Elements | — | All 6 landmark elements present with correct ids | Wrong id → Fix in VS Code with `Cmd+F` / `Ctrl+F` search |
